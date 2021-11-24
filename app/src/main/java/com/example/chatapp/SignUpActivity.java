@@ -90,7 +90,7 @@ public class SignUpActivity extends AppCompatActivity {
                 String userName = editTextUserNameSignup.getText().toString();
                 String confirmPassword=alreadyAccountSignUp.getText().toString();
 
-                if(password!=confirmPassword)
+                if(password.equals(confirmPassword))
                 {
                     Toast.makeText(getApplicationContext(), "Please enter the correct Password", Toast.LENGTH_SHORT).show();
                 }
