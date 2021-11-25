@@ -16,6 +16,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -61,12 +62,12 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
 
                 if (imageURL.equals("null"))
                 {
-                    holder.imageViewUsers.setImageResource(R.drawable.account);
+                    holder.imageViewUsers.setImageResource(R.drawable.ic_create_account_background_top);
                 }
                 else
                 {
-                    holder.imageViewUsers.setImageResource(R.drawable.account);
-                    //Picasso.get().load(imageURL).into(holder.imageViewUsers);
+                    //holder.imageViewUsers.setImageResource(R.drawable.account);
+                    Picasso.get().load(imageURL).into(holder.imageViewUsers);
                 }
 
                 holder.cardView.setOnClickListener(new View.OnClickListener() {
@@ -106,6 +107,8 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
             textViewUsers = itemView.findViewById(R.id.textViewUsers);
             imageViewUsers = itemView.findViewById(R.id.imageViewUsers);
             cardView = itemView.findViewById(R.id.cardView);
+
+
         }
     }
 }

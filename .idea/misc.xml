@@ -10,17 +10,19 @@
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/drawable/ic_illustration_login.xml" value="0.26614583333333336" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/drawable/ic_illustration_welcome.xml" value="0.26614583333333336" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/drawable/rounded_corner.xml" value="0.26614583333333336" />
-        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_forget.xml" value="0.25" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_forget.xml" value="0.264" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_my_chat.xml" value="0.152" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_my_chat.xml" value="0.264" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_my_login.xml" value="0.264" />
-        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_profile.xml" value="0.152" />
-        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.12708333333333333" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/card_received.xml" value="0.25" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/card_send.xml" value="0.25" />
-        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/users_card.xml" value="0.12708333333333333" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/layout/users_card.xml" value="0.4" />
         <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/menu/chat_menu.xml" value="0.25" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/File/Cluster Inovation Centre/SEM 3/Internship/ChatApp/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_icon.xml" value="0.26614583333333336" />
       </map>
     </option>
   </component>

@@ -56,6 +56,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
         return list.size();
     }
 
+
     public class MessageViewHolder extends RecyclerView.ViewHolder {
 
         TextView textView;

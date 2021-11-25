@@ -87,6 +87,7 @@ public class MyChatActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MyChatActivity.this,MainActivity.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -237,5 +238,10 @@ public class MyChatActivity extends AppCompatActivity {
         DatabaseReference newReference = FirebaseDatabase.getInstance().getReference("Tokens");
         Token token1 = new Token(token);
         newReference.child(fUser.getUid()).setValue(token1);
+    }
+
+    @Override
+    public void onBackPressed() {
+       finish();
     }
 }

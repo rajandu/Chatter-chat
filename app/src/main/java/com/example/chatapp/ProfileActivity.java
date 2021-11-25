@@ -138,7 +138,7 @@ public class ProfileActivity extends AppCompatActivity {
 
                 if (image.equals("null"))
                 {
-                    imageViewCircleProfile.setImageResource(R.drawable.account);
+                    imageViewCircleProfile.setImageResource(R.drawable.ic_create_account_background_top);
                 }
                 else
                 {
