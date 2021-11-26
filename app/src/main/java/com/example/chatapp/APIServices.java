@@ -10,10 +10,12 @@ public interface APIServices {
     @Headers(
     {
         "Content-Type:application/json",
-                "Authorization:key=AAAAnpshWzo:APA91bGr9SsrXQrpjRx26Py_wVSv6JJjvDhqpPoDP3Z1opcUM7nrkz5_PzHKz-fmyrHE4NoA21tJP57mj2hoWmco8FnNbwL7puF5VA3xQDUEeimgTYAujAuUXzsk-kT580mEHC0xorhG"
+                "Authorization:key="
     }
     )
 
     @POST("fcm/send")
     Call<MyResponse> sendNotification(@Body Sender body);
 }
+
+//AAAAnpshWzo:muZRajAnAPA91bGr9SsrXQrpjRx26Py_wVSv6JJjvDhqpPoDP3Z1opcUM7nrkz5_PzHKz-fmyrHE4NoA21tJP57mj2hoWmco8FnNbwL7puF5VA3xQDUEeimgTYAujAuUXzsk-kT580mEHC0xorhG
